@@ -10,7 +10,7 @@ jobs:
       - node/install-packages
       - run:
           name: Run the app
-          command: node app.js
+          command: npm run start
           background: true
       - run:
           name: Run test
